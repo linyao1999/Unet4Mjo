@@ -1,0 +1,13 @@
+14
+1
+logOMI_7maps_dailyinput_mem1d_lead14
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_OMI_filtered_trop/Unet4MJO.py", line 237, in <module>
+    output= net(input_batch.cuda())
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_OMI_filtered_trop/Unet4MJO.py", line 176, in forward
+    x6 = x6.view(-1,featureDim)
+RuntimeError: shape '[-1, 518400]' is invalid for input of size 62899200
+srun: error: nid003749: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3403420.0

@@ -1,0 +1,17 @@
+4
+1
+logOMI_7maps_dailyinput_mem1d_lead4
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_OMI_filtered/Unet4MJO.py", line 82, in <module>
+    psi_test_input_Tr_torch, psi_test_label_Tr_torch, psi_test_label_Tr  = load_test_data(Fn,Fnmjo,leadmjo,mem_list,testystat)
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_OMI_filtered/data_loader.py", line 40, in load_test_data
+    df1 = xr.open_dataset(Fnmjo+str(yn)+'.csv')
+  File "/global/homes/l/linyaoly/.local/perlmutter/pytorch1.11.0/lib/python3.9/site-packages/xarray/backends/api.py", line 515, in open_dataset
+    engine = plugins.guess_engine(filename_or_obj)
+  File "/global/homes/l/linyaoly/.local/perlmutter/pytorch1.11.0/lib/python3.9/site-packages/xarray/backends/plugins.py", line 155, in guess_engine
+    raise ValueError(error_msg)
+ValueError: did not find a match in any of xarray's currently installed IO backends ['netcdf4', 'scipy']. Consider explicitly selecting one of the installed engines via the ``engine`` parameter, or installing additional IO dependencies, see:
+https://docs.xarray.dev/en/stable/getting-started-guide/installing.html
+https://docs.xarray.dev/en/stable/user-guide/io.html
+srun: error: nid003592: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3389033.0

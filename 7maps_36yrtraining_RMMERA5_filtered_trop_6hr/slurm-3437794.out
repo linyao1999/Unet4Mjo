@@ -1,0 +1,21 @@
+
+The following have been reloaded with a version change:
+  1) darshan/3.3.1 => darshan/3.4.0
+
+4
+1
+logRMM_7mapstrop_6hrinput_mem1_lead4
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_RMMERA5_filtered_trop_6hr/Unet4MJO.py", line 82, in <module>
+    psi_test_input_Tr_torch, psi_test_label_Tr_torch, psi_test_label_Tr  = load_test_data(Fn,Fnmjo,leadmjo,mem_list,testystat)
+  File "/global/u1/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_RMMERA5_filtered_trop_6hr/data_loader.py", line 27, in load_test_data
+    FF4 = FF4.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  File "/global/homes/l/linyaoly/.local/perlmutter/pytorch1.11.0/lib/python3.9/site-packages/xarray/core/dataset.py", line 2533, in sel
+    query_results = map_index_queries(
+  File "/global/homes/l/linyaoly/.local/perlmutter/pytorch1.11.0/lib/python3.9/site-packages/xarray/core/indexing.py", line 175, in map_index_queries
+    grouped_indexers = group_indexers_by_index(obj, indexers, options)
+  File "/global/homes/l/linyaoly/.local/perlmutter/pytorch1.11.0/lib/python3.9/site-packages/xarray/core/indexing.py", line 139, in group_indexers_by_index
+    raise KeyError(f"{key!r} is not a valid dimension or coordinate")
+KeyError: "'lat' is not a valid dimension or coordinate"
+srun: error: nid003520: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3437794.0
