@@ -1,0 +1,273 @@
+ Copyright (C) 1995-2019 - All Rights Reserved
+ University Corporation for Atmospheric Research
+ NCAR Command Language Version 6.6.2
+ The use of this software is governed by a License Agreement.
+ See http://www.ncl.ucar.edu/ for more details.
+(0)	---------------------------------------------------------------------------------
+(0)	Model: ERA5
+(0)	Input data path(obs) :/global/homes/l/linyaoly/ERA5/reanalysis/
+(0)	Output data path :/global/homes/l/linyaoly/ERA5/reanalysis/
+(0)	Input data file for OLR :/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olr.day.1978to2022.nc
+(0)	Input data file for U850:/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850.day.1978to2022.nc
+(0)	Input data file for U250:/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200.day.1978to2022.nc
+(0)	---------------------------------------------------------------------------------
+(0)	Input data starts:1978
+
+
+Variable: temp_time (subsection)
+Type: integer
+Total Size: 40 bytes
+            10 values
+Number of Dimensions: 1
+Dimensions and sizes:	[10]
+Coordinates: 
+Number Of Attributes: 2
+  units :	days since 1978-01-01 00:00:0.0
+  calendar :	proleptic_gregorian
+(0)	1
+(1)	2
+(2)	3
+(3)	4
+(4)	5
+(5)	6
+(6)	7
+(7)	8
+(8)	9
+(9)	10
+
+
+Variable: calend
+Type: string
+Total Size: 8 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+(0)	proleptic_gregorian
+(0)	CALENDAR DEBUG
+(0)	min=19780101   max=20220531
+(0)	ymdStrt: 19780903 iStrt: 245 ymdLast: 20220531 iLast: 16221
+(0)	Date range from year 1978 to 2022
+(0)	type of u250t: float
+(0)	Starting date: Year:1978  Month:9  Day:3
+(0)	End date:      Year:2022  Month:5 Day:31
+(0)	First doy: 1978246  last doy: 2022151
+(0)	Total days: 15977
+(0)	-------------------------------------------
+(0)	Reading data for 250mb wind
+(0)	U250 data has been read
+(0)	Reading data for 850mb wind
+(0)	850mb wind: latitudes match
+(0)	850mb wind: longitudes match
+(0)	850mb wind: times match
+(0)	U850 data has been read
+(0)	-------------------------------------------
+(0)	Now reading OLR data
+(0)	olr: latitudes match
+(0)	olr: longitudes match
+(0)	olr: times match
+(0)	OLR data has been read
+(0)	olr 280.208
+(0)	-------------------------------------------
+(0)	remove interannual variability
+(0)	Interannual variability has been removed
+(0)	-------------------------------------------
+(0)	remove seasonal cycle
+(0)	calculate raw climatology then smooth it
+(0)	no missing values
+(0)	no missing values
+(0)	no missing values
+(0)	nsize: 15977
+(1)	nsize: 15
+(2)	nsize: 180
+(0)	time0: 365
+(0)	timeend: 16221
+(0)	time0: 1979001
+(0)	timeend: 2022151
+(0)	check rawclim wind: 14.1604
+(1)	check rawclim wind: 14.4592
+(2)	check rawclim wind: 12.6778
+(3)	check rawclim wind: 12.8341
+(4)	check rawclim wind: 14.0642
+(0)	rawclim size must be 366: 366
+(1)	rawclim size must be 366: 15
+(2)	rawclim size must be 366: 180
+(0)	smoothclim for u200: 366
+(1)	smoothclim for u200: 15
+(2)	smoothclim for u200: 180
+(0)	check rawclim olr: 1.0372
+(1)	check rawclim olr: -1.33688
+(2)	check rawclim olr: -1.60874
+(3)	check rawclim olr: -0.281134
+(4)	check rawclim olr: -0.797849
+(0)	rawclim size: 366
+(1)	rawclim size: 15
+(2)	rawclim size: 180
+(0)	olr_anom size: 15857
+(1)	olr_anom size: 15
+(2)	olr_anom size: 180
+(0)	seasonal cycle has been removed
+(0)	-------------------------------------------
+(0)	averaging the data over 15S-15N
+(0)	Done with latitudinal averaging
+(0)	-------------------------------------------
+(0)	no missing values for var_olr
+(0)	no missing values for var_olr
+(0)	no missing values for var_olr
+(0)	norm values:
+(0)	15.35304
+(0)	1.93593
+(0)	5.488764
+
+Variable: lont
+Type: float
+Total Size: 720 bytes
+            180 values
+Number of Dimensions: 1
+Dimensions and sizes:	[lon | 180]
+Coordinates: 
+            lon: [ 0..358]
+Number Of Attributes: 3
+  _FillValue :	nan
+  units :	degrees_east
+  long_name :	longitude
+
+
+Variable: lont (subsection)
+Type: float
+Total Size: 4 bytes
+            1 values
+Number of Dimensions: 1
+Dimensions and sizes:	[1]
+Coordinates: 
+Number Of Attributes: 4
+  lon :	 0
+  long_name :	longitude
+  units :	degrees_east
+  _FillValue :	nan
+(0)	 0
+
+Variable: time1
+Type: integer
+Total Size: 63428 bytes
+            15857 values
+Number of Dimensions: 1
+Dimensions and sizes:	[15857]
+Coordinates: 
+Number Of Attributes: 2
+  units :	days since 1978-01-01 00:00:0.0
+  calendar :	proleptic_gregorian
+
+Variable: ymd
+Type: integer
+Total Size: 63428 bytes
+            15857 values
+Number of Dimensions: 1
+Dimensions and sizes:	[15857]
+Coordinates: 
+Number Of Attributes: 1
+  calendar :	proleptic_gregorian
+(0)	time1 365
+(0)	istrteof: 0
+(0)	ilasteof: 13148
+(0)	eof starts: 19790101
+(0)	eof ends: 20141231
+
+Variable: RMM_field
+Type: float
+Total Size: 28401840 bytes
+            7100460 values
+Number of Dimensions: 2
+Dimensions and sizes:	[540] x [13149]
+Coordinates: 
+Number Of Attributes: 1
+  _FillValue :	-999
+warning:Dimension (0) has not been defined
+(0)	==============
+
+Variable: eof_RMM_field
+Type: float
+Total Size: 4320 bytes
+            1080 values
+Number of Dimensions: 2
+Dimensions and sizes:	[evn | 2] x [540]
+Coordinates: 
+            evn: [1..2]
+Number Of Attributes: 5
+  eval :	( 71.41017, 67.92002 )
+  pcvar :	( 13.24203, 12.59483 )
+  matrix :	covariance
+  method :	no transpose
+  _FillValue :	-999
+(0)	 
+(0)	min=-0.067601   max=0.110544
+warning:Dimension (1) has not been defined
+(0)	==============
+
+Variable: eof_ts_RMM_field
+Type: float
+Total Size: 105192 bytes
+            26298 values
+Number of Dimensions: 2
+Dimensions and sizes:	[evn | 2] x [13149]
+Coordinates: 
+            evn: [1..2]
+Number Of Attributes: 3
+  ts_mean :	( -0.0248982, 0.01231239 )
+  matrix :	covariance
+  _FillValue :	-999
+(0)	 
+(0)	min=-31.7875   max=32.4942
+(0)	eofout size: 540
+(1)	eofout size: 2
+(0)	eigenvalues:
+
+
+Variable: ei_values
+Type: float
+Total Size: 8 bytes
+            2 values
+Number of Dimensions: 1
+Dimensions and sizes:	[2]
+Coordinates: 
+(0)	71.41017
+(1)	67.92002
+(0)	Normalized PC by std dev
+
+Variable: pc
+Type: float
+Total Size: 105192 bytes
+            26298 values
+Number of Dimensions: 2
+Dimensions and sizes:	[dim1 | 13149] x [evn | 2]
+Coordinates: 
+            evn: [1..2]
+Number Of Attributes: 3
+  ts_mean :	( -0.0248982, 0.01231239 )
+  matrix :	covariance
+  _FillValue :	-999
+(0)	 
+(0)	min=-3.85706   max=3.84527
+(0)	==============
+
+Variable: pc
+Type: float
+Total Size: 105192 bytes
+            26298 values
+Number of Dimensions: 2
+Dimensions and sizes:	[dim1 | 13149] x [evn | 2]
+Coordinates: 
+            evn: [1..2]
+Number Of Attributes: 3
+  ts_mean :	( -0.0248982, 0.01231239 )
+  matrix :	covariance
+  _FillValue :	-999
+(0)	 
+(0)	min=-3.85706   max=3.84527
+(0)	calculate MJO phase
+(0)	calculate amplitude
+(0)	Data is saved into txt format at:/global/homes/l/linyaoly/ERA5/reanalysis/
+(0)	In following file:
+(0)	ERA5_RMM_ERA5only19790101to20141231.txt
+(0)	Process Completed
+(0)	==================================================
