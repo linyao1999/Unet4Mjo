@@ -21,7 +21,7 @@ module load pytorch/1.11.0
 # Note memlen and lead30d in 6hr runs represent how many time steps.
 for memlen in 1  # 1 30 15 5
 do 
-    for lead30d in {4..120..4} # {1..30}
+    for lead30d in {4..124..20} # {1..30}
     do 
         export lead30d
         # echo $lead30d 

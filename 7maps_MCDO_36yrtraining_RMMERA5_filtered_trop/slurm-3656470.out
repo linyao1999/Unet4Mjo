@@ -1,0 +1,16 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+1
+1
+logRMM_7mapstrop_dailyinput_mem1d_lead1
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/7maps_MCDO_36yrtraining_RMMERA5_filtered_trop/Unet4MJO.py", line 390, in <module>
+    np.savetxt(path_forecasts+'predicted_MCDO_UNET_7mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred, delimiter=",")
+  File "<__array_function__ internals>", line 5, in savetxt
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/numpy/lib/npyio.py", line 1368, in savetxt
+    open(fname, 'wt').close()
+FileNotFoundError: [Errno 2] No such file or directory: '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_RMMERA5_filtered_trop/output/predicted_MCDO_UNET_7mapstrop_RMMERA5_36yr_lead1_dailyinput_mem1d2015.csv'
+srun: error: nid001805: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=3656470.0

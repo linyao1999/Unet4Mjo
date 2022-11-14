@@ -1,0 +1,6 @@
+84
+1
+logRMM_7mapstrop_6hrinput_mem1_lead84
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 3477282.0 ON nid003600 CANCELLED AT 2022-10-24T09:10:50 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 3477282 ON nid003600 CANCELLED AT 2022-10-24T09:10:50 DUE TO TIME LIMIT ***

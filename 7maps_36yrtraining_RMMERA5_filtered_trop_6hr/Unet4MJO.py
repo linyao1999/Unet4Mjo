@@ -70,10 +70,10 @@ num_filters_dec2 = 192
 featureDim=num_filters_dec2*dimx*dimy
 
 ### PATHS and FLAGS ###
-path_static_activations = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/activations_analysis'
-path_weights = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/weights_analysis/'
+# path_static_activations = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/activations_analysis'
+# path_weights = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/weights_analysis/'
 # path_forecasts = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/forecasts_2deg/'
-path_forecasts = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/7maps_36yrtraining_RMMERA5_filtered_trop_6hr/output/'
+path_forecasts = '/global/homes/l/linyaoly/ERA5/script/Unet4MJO/7maps_36yrtraining_RMMERA5_filtered_trop_6hr/output/'
 
 FLAGS_WEIGHTS_DUMP=0
 FLAGS_ACTIVATIONS_DUMP=0
