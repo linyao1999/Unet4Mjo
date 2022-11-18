@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A m1517_g
 #SBATCH -C gpu
-#SBATCH -q regular
+#SBATCH -q debug
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=128
@@ -19,7 +19,7 @@ module load pytorch/1.11.0
 
 # lead30d=1
 # export lead30d
-# memlen=1
+# memlen=30
 # export memlen
 # logname="logRMM_7mapstrop_dailyinput_mem${memlen}d_lead${lead30d}"
 # export logname

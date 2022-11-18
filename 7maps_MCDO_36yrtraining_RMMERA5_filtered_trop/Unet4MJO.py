@@ -31,13 +31,13 @@ testystat = 2015  # validation starts
 
 # yend = 1980
 # testyend = 2020
-# num_epochs = 1
+# num_epochs = 50
 # trainN = 345
 # M = 365
 
 yend = 2015  # training ends
 testyend = 2020  # validation ends
-num_epochs = 50   # how many loops we want to train the model. 
+num_epochs = 100   # how many loops we want to train the model. 
 trainN = 345
 M = 365  
 

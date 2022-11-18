@@ -17,9 +17,9 @@ module load pytorch/1.11.0
 # module load cudatoolkit
 # conda activate eofenv
 
-for memlen in 1  # 1 30 15 5
+for memlen in 30  # 1 30 15 5
 do 
-    for lead30d in 1 3 5 10 13 15 20 25 30 # {10..20}
+    for lead30d in 1 5 10 13 15 20 25 30 # {10..20}
     do 
         export lead30d
         # echo $lead30d 
