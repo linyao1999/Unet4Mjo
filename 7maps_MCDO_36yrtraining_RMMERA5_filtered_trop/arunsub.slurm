@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -A m1517_g
 #SBATCH -C gpu
-#SBATCH -q debug
+#SBATCH -q regular
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=128
