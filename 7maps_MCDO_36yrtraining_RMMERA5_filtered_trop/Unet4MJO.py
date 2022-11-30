@@ -38,7 +38,7 @@ testystat = 2015  # validation starts
 yend = 2015  # training ends
 testyend = 2020  # validation ends
 num_epochs = 100   # how many loops we want to train the model. 
-trainN = 345
+trainN = 345  # 365 - batch_size
 M = 365  
 
 datadir = '/pscratch/sd/l/linyaoly/ERA5/reanalysis/'
@@ -187,8 +187,8 @@ class CNN(nn.Module):
         self.FC3 = nn.Linear(nhidden2,nhidden3)
         self.FC4 = nn.Linear(nhidden3,out_channels)
 
-        self.dropoutconv = nn.Dropout2d(p=0.1)
-        self.dropoutline = nn.Dropout(p=0.2)
+        self.dropoutconv = nn.Dropout2d(p=0.2)
+        self.dropoutline = nn.Dropout(p=0.3)
 
     def forward (self,x):
 
@@ -280,6 +280,10 @@ for epoch in range(0, num_epochs):  # loop over the dataset multiple times
             print('[%d, %5d] val_loss: %.3f' %
                   (epoch + 1, step + 1, val_loss))
             running_loss = 0.0
+
+        del input_batch
+        del label_batch
+
 
      # add additional validation ##################
 #    out = net (psi_test_input_Tr_torch[0:num_samples].reshape([num_samples,2,dim_lon,96]).cuda())

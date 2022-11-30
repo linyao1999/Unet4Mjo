@@ -15,21 +15,21 @@ import dask
 def load_test_data(Fn,Fnmjo,leadmjo,mem_list,yn):
   # open 7 daily datasets and select one year data
   FF1 = xr.open_dataset(Fn[0]) # u200
-  FF1 = FF1.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF1 = FF1.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF2 = xr.open_dataset(Fn[1]) # u850
-  FF2 = FF2.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF2 = FF2.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF3 = xr.open_dataset(Fn[2]) # olr
-  FF3 = FF3.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF3 = FF3.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF4 = xr.open_dataset(Fn[3]) # tcwv
-  FF4 = FF4.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF4 = FF4.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF5 = xr.open_dataset(Fn[4]) # v200
-  FF5 = FF5.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF5 = FF5.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF6 = xr.open_dataset(Fn[5]) # T200
-  FF6 = FF6.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF6 = FF6.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF7 = xr.open_dataset(Fn[6]) # sst
-  FF7 = FF7.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF7 = FF7.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FFmjo = xr.open_dataset(Fnmjo)
-  FFmjo = FFmjo.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'))
+  FFmjo = FFmjo.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'))
   FF1.fillna(0)
   FF2.fillna(0)
   FF3.fillna(0)
@@ -39,18 +39,18 @@ def load_test_data(Fn,Fnmjo,leadmjo,mem_list,yn):
   FF7.fillna(0)
   FFmjo.fillna(0)
     
-  psi1=np.asarray(FF1['u200'])  # u200
-  psi2=np.asarray(FF2['u850'])  # u850
-  psi3=np.asarray(FF3['olr'])  # olr
-  psi4=np.asarray(FF4['tcwv'])  # tcwv
-  psi5=np.asarray(FF5['v200'])  # v200
-  psi6=np.asarray(FF6['T200'])  # T200
-  psi7=np.asarray(FF7['sst'])  # sst
-  pc  =np.asarray(FFmjo['RMM'])
+  psi1 = np.asarray(FF1['u200'])  # u200
+  psi2 = np.asarray(FF2['u850'])  # u850
+  psi3 = np.asarray(FF3['olr'])  # olr
+  psi4 = np.asarray(FF4['tcwv'])  # tcwv
+  psi5 = np.asarray(FF5['v200'])  # v200
+  psi6 = np.asarray(FF6['T200'])  # T200
+  psi7 = np.asarray(FF7['sst'])  # sst
+  pc = np.asarray(FFmjo['RMM'])
 
   # add memories
   nmem = len(mem_list)
-  ndays = 365
+  ndays = 365   # how many samples in one 'year'
 
   psi11 = np.zeros((ndays,nmem,np.size(psi1,1),np.size(psi1,2)))
   for i,memstp in zip(np.arange(nmem),mem_list):
@@ -115,21 +115,21 @@ def load_test_data(Fn,Fnmjo,leadmjo,mem_list,yn):
 def load_train_data(Fn,Fnmjo,leadmjo,mem_list,yn):     ##### change the rest of the stuff in train
   # open 7 daily datasets and select one year data
   FF1 = xr.open_dataset(Fn[0]) # u200
-  FF1 = FF1.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF1 = FF1.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF2 = xr.open_dataset(Fn[1]) # u850
-  FF2 = FF2.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF2 = FF2.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF3 = xr.open_dataset(Fn[2]) # olr
-  FF3 = FF3.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF3 = FF3.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF4 = xr.open_dataset(Fn[3]) # tcwv
-  FF4 = FF4.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF4 = FF4.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF5 = xr.open_dataset(Fn[4]) # v200
-  FF5 = FF5.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF5 = FF5.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF6 = xr.open_dataset(Fn[5]) # T200
-  FF6 = FF6.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF6 = FF6.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FF7 = xr.open_dataset(Fn[6]) # sst
-  FF7 = FF7.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'), lat=slice(15,-15))
+  FF7 = FF7.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'), lat=slice(15,-15))
   FFmjo = xr.open_dataset(Fnmjo)
-  FFmjo = FFmjo.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-01-31'))
+  FFmjo = FFmjo.sel(time=slice(str(yn)+'-01-01', str(yn+1)+'-03-01'))
   FF1.fillna(0)
   FF2.fillna(0)
   FF3.fillna(0)

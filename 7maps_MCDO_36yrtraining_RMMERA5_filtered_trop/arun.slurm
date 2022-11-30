@@ -19,7 +19,7 @@ module load pytorch/1.11.0
 
 for memlen in 30  # 1 30 15 5
 do 
-    for lead30d in 1 5 10 13 15 20 25 30 # {10..20}
+    for lead30d in 1 5 10 13 15 20 25 30  # {10..20}
     do 
         export lead30d
         # echo $lead30d 
