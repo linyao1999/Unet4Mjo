@@ -1253,3 +1253,1582 @@ Train input (365, 1, 15, 180)
 Train label (365, 2)
 [3,     1] loss: nan
 [3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2001
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2002
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2003
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2004
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2005
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2006
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2007
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2008
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2009
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2010
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2011
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2012
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2013
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 2014
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[3,     1] loss: nan
+[3,     1] val_loss: nan
+[3,   101] loss: nan
+[3,   101] val_loss: nan
+[3,   201] loss: nan
+[3,   201] val_loss: nan
+[3,   301] loss: nan
+[3,   301] val_loss: nan
+Training loop year 1979
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1980
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1981
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1982
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1983
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1984
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1985
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1986
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1987
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1988
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1989
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1990
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1991
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1992
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1993
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1994
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1995
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1996
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1997
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1998
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1999
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2000
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2001
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2002
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2003
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2004
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2005
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2006
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2007
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2008
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2009
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2010
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2011
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2012
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2013
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 2014
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[4,     1] loss: nan
+[4,     1] val_loss: nan
+[4,   101] loss: nan
+[4,   101] val_loss: nan
+[4,   201] loss: nan
+[4,   201] val_loss: nan
+[4,   301] loss: nan
+[4,   301] val_loss: nan
+Training loop year 1979
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1980
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1981
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1982
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1983
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1984
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1985
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1986
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1987
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1988
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1989
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1990
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1991
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1992
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1993
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1994
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1995
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1996
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1997
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1998
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1999
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2000
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2001
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2002
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2003
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2004
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2005
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2006
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2007
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2008
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2009
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2010
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2011
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2012
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2013
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 2014
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[5,     1] loss: nan
+[5,     1] val_loss: nan
+[5,   101] loss: nan
+[5,   101] val_loss: nan
+[5,   201] loss: nan
+[5,   201] val_loss: nan
+[5,   301] loss: nan
+[5,   301] val_loss: nan
+Training loop year 1979
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1980
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1981
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1982
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1983
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1984
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1985
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1986
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1987
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1988
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1989
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1990
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1991
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1992
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1993
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1994
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1995
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1996
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1997
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1998
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 1999
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2000
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2001
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2002
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2003
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2004
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2005
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2006
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2007
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2008
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2009
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2010
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2011
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2012
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
+Training loop year 2013
+shape of psi11: (365, 1, 15, 180)
+shape of psi_train_input: (365, 1, 15, 180)
+Train input (365, 1, 15, 180)
+Train label (365, 2)
+[6,     1] loss: nan
+[6,     1] val_loss: nan
+[6,   101] loss: nan
+[6,   101] val_loss: nan
+[6,   201] loss: nan
+[6,   201] val_loss: nan
+[6,   301] loss: nan
+[6,   301] val_loss: nan
