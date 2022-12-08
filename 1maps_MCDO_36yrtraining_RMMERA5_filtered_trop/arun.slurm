@@ -31,7 +31,7 @@ for memlen in 1  # 1 30 15 5
 do 
     for lead30d in 1 5 10 13 15 20 25 30  # {10..20}
     do 
-        for varname in "tcwv" "v200" "T200" "sst"  # "u200" "u850" "olr" "tcwv" "v200" "T200" "sst"
+        for varname in "prep" "q200" "q500" "q850" "T500" "T850" "Z200" "Z500" "Z850" "v500" "v850" "u500" "sst" # "u200" "u850" "olr" "tcwv" "v200" "T200" "sst"
         do 
             export varname
             export lead30d

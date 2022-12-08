@@ -59,7 +59,21 @@ Fn3 = datadir+'ERA5.olrGfltG.day.1979to2022.nc'
 Fn4 = datadir+'ERA5.tcwvGfltG.day.1979to2022.nc'
 Fn5 = datadir+'ERA5.v200GfltG.day.1979to2022.nc'
 Fn6 = datadir+'ERA5.T200GfltG.day.1979to2022.nc'
-Fn7 = datadir+'ERA5.sstGfltG.day.1979to2022.nc'
+Fn7 = datadir+'ERA5.sstGfltGmask0.day.1979to2022.nc'
+
+Fn8 = datadir+'ERA5.u500GfltG.day.1979to2022.nc'
+Fn9 = datadir+'ERA5.v500GfltG.day.1979to2022.nc'
+Fn10 = datadir+'ERA5.v850GfltG.day.1979to2022.nc'
+Fn11 = datadir+'ERA5.Z200GfltG.day.1979to2022.nc'
+Fn12 = datadir+'ERA5.Z500GfltG.day.1979to2022.nc'
+Fn13 = datadir+'ERA5.Z850GfltG.day.1979to2022.nc'
+Fn14 = datadir+'ERA5.T500GfltG.day.1979to2022.nc'
+Fn15 = datadir+'ERA5.T850GfltG.day.1979to2022.nc'
+Fn16 = datadir+'ERA5.q200GfltG.day.1979to2022.nc'
+Fn17 = datadir+'ERA5.q500GfltG.day.1979to2022.nc'
+Fn18 = datadir+'ERA5.q850GfltG.day.1979to2022.nc'
+Fn19 = datadir+'ERA5.prepGfltG.day.1979to2022.nc'
+
 
 # Fn4 = datadir+'ERA5.tcwv.day.1978to2022.nc'
 # Fn5 = datadir+'ERA5.v200.day.1978to2022.nc'
@@ -85,7 +99,31 @@ elif varn == "T200":
         Fn.append(Fn6)
 elif varn == "sst":
         Fn.append(Fn7)
-        # nmapsnorm = 0
+        nmapsnorm = 0
+elif varn == "u500":
+        Fn.append(Fn8)
+elif varn == "v500":
+        Fn.append(Fn9)
+elif varn == "v850":
+        Fn.append(Fn10)
+elif varn == "Z200":
+        Fn.append(Fn11)
+elif varn == "Z500":
+        Fn.append(Fn12)
+elif varn == "Z850":
+        Fn.append(Fn13)
+elif varn == "T500":
+        Fn.append(Fn14)
+elif varn == "T850":
+        Fn.append(Fn15)
+elif varn == "q200":
+        Fn.append(Fn16)
+elif varn == "q500":
+        Fn.append(Fn17)
+elif varn == "q850":
+        Fn.append(Fn18)
+elif varn == "prep":
+        Fn.append(Fn19)
 
 Fnmjo = '/global/homes/l/linyaoly/ERA5/reanalysis/RMM_ERA5_daily.nc'
 ### PATHS and FLAGS ###
@@ -145,7 +183,7 @@ for leveln in np.arange(0,nmapsnorm*nmem):
   STD_test_level = torch.std(torch.flatten(psi_test_input_Tr_torch[:,leveln,:,:]))
   psi_test_input_Tr_torch_norm[:,leveln,None,:,:] = ((psi_test_input_Tr_torch[:,leveln,None,:,:]-M_test_level)/STD_test_level)
 
-# psi_test_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_test_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
+psi_test_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_test_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
 psi_test_input_Tr_torch  = torch.from_numpy(psi_test_input_Tr_torch_norm).float()
 
 # print('shape of normalized input test',psi_test_input_Tr_torch.shape)
@@ -277,7 +315,7 @@ for epoch in range(0, num_epochs):  # loop over the dataset multiple times
         STD_train_level = torch.std(torch.flatten(psi_train_input_Tr_torch[:,levelnloop,:,:]))
         psi_train_input_Tr_torch_norm[:,levelnloop,None,:,:] = ((psi_train_input_Tr_torch[:,levelnloop,None,:,:]-M_train_level)/STD_train_level)
 
-#      psi_train_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_train_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
+     psi_train_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_train_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
      psi_train_input_Tr_torch = torch.from_numpy(psi_train_input_Tr_torch_norm).float()
 
 #      print('shape of normalized input test',psi_train_input_Tr_torch.shape)
@@ -384,7 +422,7 @@ for testyn in np.arange(testystat,testyend):
                 STD_test_level = torch.std(torch.flatten(psi_test_input_Tr_torch[:,leveln,:,:]))
                 psi_test_input_Tr_torch_norm[:,leveln,None,:,:] = ((psi_test_input_Tr_torch[:,leveln,None,:,:]-M_test_level)/STD_test_level)
         
-        # psi_test_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_test_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
+        psi_test_input_Tr_torch_norm[:,nmapsnorm*nmem:nmaps*nmem,None,:,:] = psi_test_input_Tr_torch[:,nmapsnorm*nmem:nmaps*nmem,None,:,:]
 
         psi_test_input_Tr_torch  = torch.from_numpy(psi_test_input_Tr_torch_norm).float()
 

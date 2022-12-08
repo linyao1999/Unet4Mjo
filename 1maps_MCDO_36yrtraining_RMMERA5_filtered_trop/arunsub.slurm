@@ -6,7 +6,7 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=128
 #SBATCH --gpus-per-task=1
-#SBATCH -t 12:00:00
+#SBATCH -t 03:30:00
 
 # source $LMOD_PKG/init/csh
 # # module load esslurm
