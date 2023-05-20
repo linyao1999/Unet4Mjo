@@ -24,13 +24,14 @@ import os
 # Updates Nov 13, 2022: Add 2dMonte
 # input: 6 global maps at three time steps
 # output: RMMERA5 at one time step
+runflg = '60deg'
 
 # parameters to be set
 ysta = 1979  # training starts
 testystat = 2015  # validation starts
 nmaps = 19  # the number of variables we include in the input
 nmapsnorm = 18  # the number of variables need to be normalized
-lat_lim = 20  # maximum latitude in degree
+lat_lim = 60  # maximum latitude in degree
 
 # yend = 1980
 # testyend = 2020
@@ -79,7 +80,7 @@ Fnmjo = '/global/homes/l/linyaoly/ERA5/reanalysis/RMM_ERA5_daily.nc'
 # path_weights = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/weights_analysis/'
 # # path_forecasts = '/global/homes/l/linyaoly/ERA5/script/Stability-Explanability/U-NET/forecasts_2deg/'
 path_forecasts = './output/'
-model_save = '/pscratch/sd/l/linyaoly/Unet4MJO/19variables_MCDO_36yr_filtered_trop/'
+model_save = '/pscratch/sd/l/linyaoly/Unet4MJO/19variables_MCDO_36yr_filtered_'+runflg+'/'
 if not os.path.isdir(path_forecasts):
         os.makedirs(path_forecasts)
         print("create output directory")
@@ -317,7 +318,7 @@ for epoch in range(0, num_epochs):  # loop over the dataset multiple times
 print('Finished Training')
 
 net = net.eval()
-torch.save(net.state_dict(), model_save+'predicted_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput.pt')
+torch.save(net.state_dict(), model_save+'predicted_MCDO_UNET_'+str(len(vn))+'maps'+runflg+'_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput.pt')
 
 print('BNN Model Saved')
 
@@ -416,10 +417,10 @@ for testyn in np.arange(testystat,testyend):
         print('autoreg_pred' + str(autoreg_pred[0,0]))
         print('autoreg_pred' + str(autoreg_pred.shape))
 
-        np.savetxt(path_forecasts+'predicted_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred, delimiter=",")
-        np.savetxt(path_forecasts+'truth_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_true, delimiter=",")
-        # np.savetxt(path_forecasts+'predicted_disav_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred_av, delimiter=",")
-        np.savetxt(path_forecasts+'predicted_disstd_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred_std, delimiter=",")
+        np.savetxt(path_forecasts+'predicted_MCDO_UNET_'+str(len(vn))+'maps'+runflg+'_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred, delimiter=",")
+        np.savetxt(path_forecasts+'truth_MCDO_UNET_'+str(len(vn))+'maps'+runflg+'_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_true, delimiter=",")
+        # np.savetxt(path_forecasts+'predicted_disav_MCDO_UNET_'+str(len(vn))+'maps'+runflg+'_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred_av, delimiter=",")
+        np.savetxt(path_forecasts+'predicted_disstd_MCDO_UNET_'+str(len(vn))+'maps'+runflg+'_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d'+str(testyn)+'.csv', autoreg_pred_std, delimiter=",")
 
         # savenc(autoreg_pred, path_forecasts+'predicted_UNET_u200u850olr_RMMERA5_lead'+str(leadmjo)+'.nc')
         # savenc(autoreg_true, path_forecasts+'truth_UNET_u200u850olr_RMMERA5_lead'+str(leadmjo)+'.nc')

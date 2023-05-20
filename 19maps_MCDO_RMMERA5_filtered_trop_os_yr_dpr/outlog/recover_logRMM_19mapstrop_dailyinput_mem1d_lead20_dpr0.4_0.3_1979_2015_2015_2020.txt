@@ -1,0 +1,79 @@
+1.11.0
+1.11.0
+dropout_rate_conv: 0.4
+dropout_rate_mlp: 0.3
+ysta_train: 1979
+ysta_test: 2015
+leadmjo: 20
+nmem: 1
+**** Number of Trainable Parameters in BNN
+line 11
++--------------------+------------+
+|      Modules       | Parameters |
++--------------------+------------+
+| input_layer.weight |   30400    |
+|  input_layer.bias  |     64     |
+|   hidden1.weight   |   102400   |
+|    hidden1.bias    |     64     |
+|   hidden2.weight   |   102400   |
+|    hidden2.bias    |     64     |
+|   hidden3.weight   |   102400   |
+|    hidden3.bias    |     64     |
+|   hidden4.weight   |   102400   |
+|    hidden4.bias    |     64     |
+|   hidden5.weight   |   409600   |
+|    hidden5.bias    |    128     |
+|   hidden6.weight   |   921600   |
+|    hidden6.bias    |    192     |
+|     FC1.weight     | 259200000  |
+|      FC1.bias      |    500     |
+|     FC2.weight     |   100000   |
+|      FC2.bias      |    200     |
+|     FC3.weight     |   10000    |
+|      FC3.bias      |     50     |
+|     FC4.weight     |    100     |
+|      FC4.bias      |     2      |
++--------------------+------------+
+line 13
+Total Trainable Params: 261082692
+Model starts
+test year is: 2015
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1901to2020.nc']
+19
+combined input shape is: (365, 19, 15, 180)
+shape of normalized input test torch.Size([365, 19, 15, 180])
+shape of normalized label test torch.Size([365, 2])
+autoreg_pred-0.6694626212120056
+autoreg_pred(365, 2)
+test year is: 2016
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1901to2020.nc']
+19
+combined input shape is: (365, 19, 15, 180)
+shape of normalized input test torch.Size([365, 19, 15, 180])
+shape of normalized label test torch.Size([365, 2])
+autoreg_pred0.3933008015155792
+autoreg_pred(365, 2)
+test year is: 2017
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1901to2020.nc']
+19
+combined input shape is: (365, 19, 15, 180)
+shape of normalized input test torch.Size([365, 19, 15, 180])
+shape of normalized label test torch.Size([365, 2])
+autoreg_pred-0.3897126019001007
+autoreg_pred(365, 2)
+test year is: 2018
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1901to2020.nc']
+19
+combined input shape is: (365, 19, 15, 180)
+shape of normalized input test torch.Size([365, 19, 15, 180])
+shape of normalized label test torch.Size([365, 2])
+autoreg_pred-1.1722792387008667
+autoreg_pred(365, 2)
+test year is: 2019
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepGfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850GfltG.day.1901to2020.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1901to2020.nc']
+19
+combined input shape is: (365, 19, 15, 180)
+shape of normalized input test torch.Size([365, 19, 15, 180])
+shape of normalized label test torch.Size([365, 2])
+autoreg_pred1.104160189628601
+autoreg_pred(365, 2)

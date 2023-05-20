@@ -1,0 +1,10 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_ERA5_filtered/Unet4MJO_loop.py", line 312, in <module>
+    inputx = psi_test_input_Tr_torch[k].reshape([1,mem_list_len,dimx,dimy]).cuda()
+RuntimeError: shape '[1, 2, 15, 180]' is invalid for input of size 102600
+srun: error: nid008640: task 0: Exited with exit code 1
+srun: Terminating StepId=8659152.0

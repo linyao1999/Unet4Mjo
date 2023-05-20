@@ -1,0 +1,9 @@
+30
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead30
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_RMMERA5_filtered_trop/Unet4MJO_loop.py", line 472, in <module>
+    ds.to_netcdf(path_forecasts+'predicted_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_mon'+str(mon1)+'_lead'+str(leadmjo)+'_dailyinput_mem'+str(nmem)+'d.nc')
+NameError: name 'mon1' is not defined
+srun: error: nid003396: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7019457.0

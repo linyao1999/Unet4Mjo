@@ -1,0 +1,11 @@
+5
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead5
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/LSTM/LSTM_NN_RMM.py", line 135, in <module>
+    Ntest, M_test1, M_test2, std_test1, std_test2, test_input_data_norm_torch, test_model_label_norm_torch = load_test_data(leadmjo,testystat,testyend,nmem,nmemUnet,nvar,noutputmem,normflg)
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/LSTM/dataloader_pred.py", line 178, in load_test_data
+    return Ntest, M_test1, M_test2, std_test1, std_test2, test_input_data_norm_torch, test_model_label_norm_torch
+NameError: name 'M_test1' is not defined
+srun: error: nid002840: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6406242.0

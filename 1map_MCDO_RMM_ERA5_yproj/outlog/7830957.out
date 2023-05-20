@@ -1,0 +1,15 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+1
+1
+logRMM_1mapyproj_dailyinput_mem1d_lead1
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_RMM_ERA5_yproj/Unet4MJO_loop.py", line 134, in <module>
+    psi_train_input_Tr_torch, psi_train_label_Tr_torch, trainN = load_train_data(Fnmjo,leadmjo,mem_list,ysta,yend,zmode,m)
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_RMM_ERA5_yproj/data_loader_loop.py", line 73, in load_train_data
+    psi_train_input = np.zeros((ndays-mem_list[-1],nmem,dimx,dimy))
+ValueError: negative dimensions are not allowed
+srun: error: nid001212: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7830957.0

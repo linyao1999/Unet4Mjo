@@ -1,0 +1,14 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_RMM_ERA5_yproj_hovm/Unet4MJO_loop.py", line 180, in <module>
+    output= net(input_batch.cuda())
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_RMM_ERA5_yproj_hovm/Unet4MJO_loop.py", line 120, in forward
+    x6 = x6.view(-1,featureDim)
+RuntimeError: shape '[-1, 725760]' is invalid for input of size 691200
+srun: error: nid002913: task 0: Exited with exit code 1
+srun: Terminating StepId=8237733.0

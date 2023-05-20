@@ -15,7 +15,14 @@ import dask
 def load_test_data(Fn,vn,Fnmjo,leadmjo,mem_list,yn,lat_lim):
     # set parameters
     nmem = len(mem_list)  # memory length
-    ndays = 365   # how many samples in one 'year'  
+
+    datesta = pd.Timestamp(np.datetime64(str(yn-1)+'-12-01')) + pd.DateOffset(months=1) 
+    tmp = datesta + pd.DateOffset(months=12)
+    dateend = tmp.to_numpy() - np.timedelta64(1, 'D')
+    datesta = datesta.to_numpy()
+    delta = dateend - datesta
+    ndays = int(delta / np.timedelta64(1, 'D')) + 1     
+
     dimx = int(1 + 2 * int(lat_lim / 2))
     dimy = 180
 
@@ -80,7 +87,14 @@ def load_train_data(Fn,vn,Fnmjo,leadmjo,mem_list,yn,lat_lim):   ##### change the
     # load training data
     # set parameters
     nmem = len(mem_list)  # memory length
-    ndays = 365   # how many samples in one 'year'  
+
+    datesta = pd.Timestamp(np.datetime64(str(yn-1)+'-12-01')) + pd.DateOffset(months=1) 
+    tmp = datesta + pd.DateOffset(months=12)
+    dateend = tmp.to_numpy() - np.timedelta64(1, 'D')
+    datesta = datesta.to_numpy()
+    delta = dateend - datesta
+    ndays = int(delta / np.timedelta64(1, 'D')) + 1     
+
     dimx = int(1 + 2 * int(lat_lim / 2))
     dimy = 180
 
@@ -136,4 +150,4 @@ def load_train_data(Fn,vn,Fnmjo,leadmjo,mem_list,yn,lat_lim):   ##### change the
     psi_train_input_Tr_torch = torch.from_numpy(psi_train_input_Tr).float()
     psi_train_label_Tr_torch = torch.from_numpy(psi_train_label_Tr).float()
 
-    return psi_train_input_Tr_torch, psi_train_label_Tr_torch
+    return psi_train_input_Tr_torch, psi_train_label_Tr_torch, ndays

@@ -1,0 +1,6 @@
+1.11.0
+1.11.0
+MJO index ROMI
+leadmjo: 30
+nmem: 1
+lat_lim:  15

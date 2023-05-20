@@ -1,0 +1,9 @@
+20
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead20
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_RMMERA5_filtered_trop/Unet4MJO_loop.py", line 374, in <module>
+    psi_test_input_Tr_torch, psi_test_label_Tr_torch, psi_test_label_Tr  = load_test_data(Fn,vn,Fnmjo,leadmjo,mem_list,testyn,lat_lim,mon1,monlen)
+NameError: name 'mon1' is not defined
+srun: error: nid008657: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7008733.0

@@ -1,0 +1,13 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+1
+1
+logRMM_1mapyproj_dailyinput_mem1d_lead1
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_RMM_ERA5_yproj/Unet4MJO_loop.py", line 166, in <module>
+    output_val= net(psi_test_input_Tr_torch[0:num_samples].reshape([num_samples,nmaps*nmem,dimx,dimy]).cuda()) # Nlat changed to 1 for hovmoller forecast
+NameError: name 'psi_test_input_Tr_torch' is not defined
+srun: error: nid001045: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7830994.0

@@ -1,0 +1,12 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/1map_MCDO_ERA5_filtered/Unet4MJO_loop.py", line 56, in <module>
+    vn = os.environ["varname"]
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/os.py", line 679, in __getitem__
+    raise KeyError(key) from None
+KeyError: 'varname'
+srun: error: nid003036: task 0: Exited with exit code 1
+srun: Terminating StepId=8669450.0

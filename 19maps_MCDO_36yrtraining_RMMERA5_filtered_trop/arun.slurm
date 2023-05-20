@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -A m1517_g
+#SBATCH -A dasrepo_g
 #SBATCH -C gpu
 #SBATCH -q regular
 #SBATCH --nodes=1
@@ -7,6 +7,7 @@
 #SBATCH --cpus-per-task=10
 #SBATCH --gpus-per-task=1
 #SBATCH -t 00:02:00
+#SBATCH --output=outlog/%j.out
 
 # source $LMOD_PKG/init/csh
 # # module load esslurm

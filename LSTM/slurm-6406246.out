@@ -1,0 +1,5 @@
+20
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead20
+slurmstepd: error: *** STEP 6406246.0 ON nid002040 CANCELLED AT 2023-03-24T04:19:43 ***
+slurmstepd: error: *** JOB 6406246 ON nid002040 CANCELLED AT 2023-03-24T04:19:43 ***

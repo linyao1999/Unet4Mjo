@@ -1,0 +1,15 @@
+10
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead10
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_RMMERA5_filtered_trop/Unet4MJO_loop.py", line 326, in <module>
+    net.load_state_dict(torch.load(model_save+'predicted_MCDO_UNET_'+str(len(vn))+'mapstrop_RMMERA5_36yr_lead'+str(leadmjo)+'_dailyinput.pt'))
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/pscratch/sd/l/linyaoly/Unet4MJO/19variables_MCDO_36yr_filtered_trop_new/predicted_MCDO_UNET_19mapstrop_RMMERA5_36yr_lead10_dailyinput.pt'
+srun: error: nid003280: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7027145.0

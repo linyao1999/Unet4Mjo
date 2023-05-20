@@ -1,0 +1,42 @@
+1.11.0
+1.11.0
+create output directory
+leadmjo: 5
+nmem: 1
+**** Number of Trainable Parameters in BNN
+line 11
++--------------------+------------+
+|      Modules       | Parameters |
++--------------------+------------+
+| input_layer.weight |   30400    |
+|  input_layer.bias  |     64     |
+|   hidden1.weight   |   102400   |
+|    hidden1.bias    |     64     |
+|   hidden2.weight   |   102400   |
+|    hidden2.bias    |     64     |
+|   hidden3.weight   |   102400   |
+|    hidden3.bias    |     64     |
+|   hidden4.weight   |   102400   |
+|    hidden4.bias    |     64     |
+|   hidden5.weight   |   409600   |
+|    hidden5.bias    |    128     |
+|   hidden6.weight   |   921600   |
+|    hidden6.bias    |    192     |
+|     FC1.weight     | 362880000  |
+|      FC1.bias      |    500     |
+|     FC2.weight     |   100000   |
+|      FC2.bias      |    200     |
+|     FC3.weight     |   10000    |
+|      FC3.bias      |     50     |
+|     FC4.weight     |    100     |
+|      FC4.bias      |     2      |
++--------------------+------------+
+line 13
+Total Trainable Params: 364762692
+Model starts
+test year is: 2015
+['/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u200G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u850G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.olrG4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.tcwvG4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v200G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T200G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.prepG4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.u500G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v500G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.v850G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z200G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z500G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.Z850G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T500G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.T850G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q200G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q500G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.q850G4ROMI.day.1979to2021.nc', '/pscratch/sd/l/linyaoly/ERA5/reanalysis/ERA5.sstGfltGmask0.day.1979to2020.nc']
+19
+combined input shape is: (365, 19, 21, 180)
+shape of normalized input test torch.Size([365, 19, 21, 180])
+shape of normalized label test torch.Size([365, 2])

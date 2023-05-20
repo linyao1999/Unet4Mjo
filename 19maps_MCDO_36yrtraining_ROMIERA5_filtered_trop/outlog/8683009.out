@@ -1,0 +1,12 @@
+/opt/cray/pe/lmod/lmod/init/csh: line 2: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 3: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 4: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 5: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 6: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 7: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 8: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 63: syntax error: unexpected end of file
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+

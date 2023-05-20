@@ -1,0 +1,19 @@
+30
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead30
+/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/loss.py:529: UserWarning: Using a target size (torch.Size([64, 2])) that is different to the input size (torch.Size([300, 2])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/LSTM/LSTM_NN_RMM.py", line 109, in <module>
+    loss = loss_fn(output, label_batch.reshape([batch_size,noutputmem*2]).cuda())
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 529, in forward
+    return F.mse_loss(input, target, reduction=self.reduction)
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/functional.py", line 3261, in mse_loss
+    expanded_input, expanded_target = torch.broadcast_tensors(input, target)
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/functional.py", line 75, in broadcast_tensors
+    return _VF.broadcast_tensors(tensors)  # type: ignore[attr-defined]
+RuntimeError: The size of tensor a (300) must match the size of tensor b (64) at non-singleton dimension 0
+srun: error: nid001744: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=6382057.0

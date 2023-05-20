@@ -1,0 +1,20 @@
+/opt/cray/pe/lmod/lmod/init/csh: line 2: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 3: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 4: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 5: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 6: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 7: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 8: setenv: command not found
+/opt/cray/pe/lmod/lmod/init/csh: line 63: syntax error: unexpected end of file
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_ROMIERA5_filtered_trop/ReloadUnet4MJO_mcdp.py", line 202, in <module>
+    out = net(inputx).data.cpu().numpy()
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_ROMIERA5_filtered_trop/ReloadUnet4MJO_mcdp.py", line 133, in forward
+    x1 = F.relu (self.dropoutconv(self.input_layer(x)))
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1185, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'CNN' object has no attribute 'dropoutconv'
+srun: error: nid003648: task 0: Exited with exit code 1
+srun: Terminating StepId=8683959.0

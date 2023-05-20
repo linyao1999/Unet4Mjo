@@ -1,0 +1,11 @@
+10
+1
+logRMM_MCDO_19mapstrop_dailyinput_mem1d_lead10
+Traceback (most recent call last):
+  File "/global/u1/l/linyaoly/ERA5/script/Unet4MJO/19maps_MCDO_36yrtraining_RMMERA5_filtered_trop/Unet4MJO_loop.py", line 91, in <module>
+    os.makedirs(model_save)
+  File "/global/common/software/nersc/pm-2021q4/sw/pytorch/1.11.0/lib/python3.9/os.py", line 225, in makedirs
+    mkdir(name, mode)
+FileExistsError: [Errno 17] File exists: '/pscratch/sd/l/linyaoly/Unet4MJO/19variables_MCDO_36yr_filtered_trop_new/'
+srun: error: nid003784: task 0: Exited with exit code 1
+srun: launch/slurm: _step_signal: Terminating StepId=7008730.0

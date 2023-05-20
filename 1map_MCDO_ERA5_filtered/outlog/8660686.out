@@ -1,0 +1,196 @@
+
+The following have been reloaded with a version change:
+  1) cudatoolkit/11.7 => cudatoolkit/11.5
+
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps15deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps20deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps45deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logRMM_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead1
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead5
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead10
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead13
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead15
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead20
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead25
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error
+logROMI_MCDO_19maps60deg_dailyinput_mem1d_dmem_1_lead30
+sbatch: error: Job cost estimated at 5.50 node hours, your balance is 5.00 node hours (Repo: 1898.64 node hours). Cannot proceed, please see https://docs.nersc.gov/jobs/policy/ for your options to run this job.
+sbatch: error: Batch job submission failed: Unspecified error

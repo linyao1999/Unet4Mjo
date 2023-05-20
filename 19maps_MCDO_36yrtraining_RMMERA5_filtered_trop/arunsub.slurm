@@ -1,12 +1,13 @@
 #!/bin/bash
-#SBATCH -A m1517_g
+#SBATCH -A dasrepo_g
 #SBATCH -C gpu
 #SBATCH -q regular
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=128
 #SBATCH --gpus-per-task=1
-#SBATCH -t 11:30:00
+#SBATCH -t 02:30:00
+#SBATCH --output=outlog/%j.out
 
 # source $LMOD_PKG/init/csh
 # # module load esslurm
@@ -27,4 +28,5 @@ module load pytorch/1.11.0
 echo $lead30d
 echo $memlen
 echo $logname
+# srun python3 ReloadUnet4MJO_mcdp.py > ./outlog/$logname.txt
 srun python3 Unet4MJO_loop.py > ./outlog/$logname.txt
